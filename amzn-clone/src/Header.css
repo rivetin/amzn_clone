@@ -38,4 +38,37 @@
 
 }
 
-.
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option {
+     display: flex;
+     flex-direction: column;
+     color: white;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    color: white;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
